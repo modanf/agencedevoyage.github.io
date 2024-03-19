@@ -1,0 +1,328 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(IMG_5499.JPG);
+}
+
+div{
+    display: block;
+}
+.entete{
+    height: 55vh;
+    background-image:url(mosque-615415.jpg) ;
+    background-repeat: repeat;
+    background-position: center;
+    background-size: 110% 100%;
+    background-clip: border-box;
+    border-bottom: 1px solid black;
+
+}
+.menu{
+    height: 25vh;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    margin-top: 20px;
+    float: right;
+    text-decoration: none;
+}
+.menu ul li{
+    text-decoration: none;
+    padding: 10px 20px;
+    
+    text-transform: uppercase;
+    text-emphasis: none;
+    
+}
+.menu ul li a{
+    text-decoration: none;
+    color:  white;
+}
+
+h1{
+    font-weight: 600; 
+    color: transparent; 
+    -webkit-text-stroke: 1px white;
+    background: url(back.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    background-clip: text;
+    animation: back 20s linear infinite;
+    font-family: 'poppins', sans-serif;
+    text-align: center;
+}  
+@keyframes back{
+    100%
+    {
+        background-position: 2000px 0;
+    }
+}
+.midpage{
+    height: 500vh;
+
+} 
+.midpage p{
+   
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}  
+img{
+    height: 200px;
+    width: 200px;
+}
+.imgjo1{
+    display: flex;
+    margin: 10%;
+}
+.joburg1{
+    width: 1000px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px;
+    height: 75vh;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    transform: scale(1);
+    transition: 1s ease-in-out;
+}
+   
+.joburg1:hover{
+    cursor: pointer;
+    transform: scale(1.3);
+    
+    
+
+}
+.imgjo1 p{
+    font-size: large;
+    padding-inline-start: 10%;
+    text-align: justify;
+    display: block;
+   
+}
+.imgjo2{
+    display: flex;
+    margin: 10%;
+    
+}
+
+.joburg2{
+    width: 2000px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px;
+    height: 75vh;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    transform: scale(1);
+    transition: 1s ease-in-out;
+}
+.joburg2:hover{
+    cursor: pointer;
+    transform: scale(1.3);
+}
+
+.imgjo2 p{
+    font-size: large;
+    padding-inline-start: 10%;
+    text-align: justify;
+    
+  
+}
+.container{
+    display:flex ;
+    justify-content: center;
+    align-items: center ;
+    height: 1000px;
+}
+    
+
+.card{
+    height: 600px;
+    margin: 10px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+    bottom: 220px;
+}
+.container img{
+    height: 500px;
+    width: 350px;
+    border-radius: 4px;
+    display: block;
+    
+
+}
+
+.intro{
+    height: 200px;
+    width: 350px;
+    padding: 6px; 
+    box-sizing: border-box;
+   position: absolute;
+    background: rgb(27, 27, 27,.5);
+    color: white;
+
+    transition: .5s;
+}
+.intro h2{
+    margin: 10px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.intro p{
+    font-size: 15px;
+    margin: 20px;
+    visibility: hidden;
+    font-family: 'Courier New', Courier, monospace;
+    display: block;
+    
+}
+span{
+    font-weight: bold;
+}
+.card:hover{
+    cursor: pointer;
+}
+.card:hover .intro{
+    height: 200px;
+    
+    background: black;
+}
+.card:hover p{
+    opacity: 1;
+    visibility: visible;
+}
+.card:hover img{
+    transform: scale(1.1) rotate(-3deg );
+    
+}
+.video1{
+ height: 100vh;
+ align-items: center;
+ text-align: center;
+ justify-content: center;
+}
+.video1 h2{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 20vh;
+    font-size: xx-large;
+    
+    
+}
+iframe{
+    height:75vh;
+    width: 130vh;
+}
+.endpage{
+    border-top: solid black 1px;
+    background-color: rgb(19, 0, 141);
+    height: 85vh;
+   display: block;
+}
+.endpage img{
+    height: 40px;
+    width: 50px;
+    border-radius: 15%;
+    display: inline-block;
+}
+.end{
+    display: flex;
+}
+.formul{
+    background-color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   height: 30vh;
+   font-size: larger;
+   color: white;
+   
+   
+}
+.formul label{
+    color: white;
+    width: 350px;
+}
+
+
+.formul input {
+   height: 50px;
+    width: 300px;
+    border: solid black;
+    
+}
+.space{
+    height: 47vhvh;
+}
+
+    
+
+.end1{
+    width: 100vh;
+}
+.end0{
+    height: 47vh;
+    
+}
+.end0 p{
+    font-size: larger;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: white;
+}
+.end0 img{
+    height:150px;
+    width: 500px;
+    border-radius: 0%;
+    
+}
+.end2{
+width: 45vh;
+}
+.end2 ul{
+text-decoration: none;
+text-decoration-style: none;
+list-style: none;
+color: white;
+}
+.end2 ul li{
+   text-decoration: none;
+   text-decoration-line: none;
+   height: 60px;
+   font-size: larger;
+   color: white;
+   
+   
+}
+.end2 ul li a{
+    text-decoration: none;
+    text-decoration-line: none;
+    color: white;
+}
+
+.end3{
+width: 45vh;
+}
+.end3 ul{
+text-decoration: none;
+text-decoration-style: none;
+list-style: none;
+color: white;
+}
+.end3 ul li{
+   text-decoration: none;
+   text-decoration-line: none;
+   height: 70px;
+   font-size: larger;
+   color: white;
+   
+}
+.end3 ul li a{
+    text-decoration: none;
+    text-decoration-line: none;
+    color: white;
+}
+
